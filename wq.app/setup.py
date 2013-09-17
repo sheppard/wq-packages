@@ -34,7 +34,7 @@ package_data['wq'].append('app/util/r.js')
 
 setup(
     name = 'wq.app',
-    version = '0.3.1',
+    version = '0.4.1',
     author='S. Andrew Sheppard',
     author_email='andrew@wq.io',
     url='http://wq.io/wq.app',
@@ -45,6 +45,7 @@ setup(
     description='JavaScript web apps with RequireJS, jQuery Mobile, Mustache, and Leaflet',
     long_description=long_description(),
     install_requires=['pyscss'],
+    scripts=['wq/app/util/wq'],
     classifiers = [
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
