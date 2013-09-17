@@ -15,7 +15,7 @@ def long_description():
 
 setup(
     name = 'wq.io',
-    version = '0.1.0',
+    version = '0.2.0',
     author='S. Andrew Sheppard',
     author_email='andrew@wq.io',
     url='http://wq.io/wq.io',
@@ -24,7 +24,7 @@ setup(
     namespace_packages=['wq'],
     description='Consistent iterable API for reading and writing to external datasets',
     long_description=long_description(),
-    install_requires=['Django'],
+    install_requires=['httplib2','lxml','xlrd'],
     classifiers = [
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
