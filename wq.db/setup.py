@@ -15,7 +15,7 @@ def long_description():
 
 setup(
     name = 'wq.db',
-    version = '0.2.0',
+    version = '0.3.0',
     author='S. Andrew Sheppard',
     author_email='andrew@wq.io',
     url='http://wq.io/wq.db',
@@ -24,7 +24,13 @@ setup(
     namespace_packages=['wq'],
     description='Django design patterns and REST API for field data collection.',
     long_description=long_description(),
-    install_requires=['Django', 'djangorestframework'],
+    install_requires=[
+        'Django>=1.5',
+        'djangorestframework>=2.2.0,<2.3.0',
+        'south',
+        'pystache',
+        'django-social-auth'
+    ],
     classifiers = [
         'Framework :: Django',
         'Development Status :: 4 - Beta',
