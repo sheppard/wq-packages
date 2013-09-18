@@ -15,14 +15,14 @@ def long_description():
 
 setup(
     name = 'wq',
-    version = '0.2.0',
+    version = '0.3.0',
     author='S. Andrew Sheppard',
     author_email='andrew@wq.io',
     url='http://wq.io/',
     license='MIT',
     description='A modular framework for building custom offline-capable desktop and mobile web apps.',
     long_description=long_description(),
-    install_requires=['wq.app>=0.3.1', 'wq.io>=0.1.0', 'wq.db>=0.2.0'],
+    install_requires=['wq.app==0.4.1', 'wq.io==0.2.0', 'wq.db==0.3.0'],
     classifiers = [
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
