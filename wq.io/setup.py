@@ -15,7 +15,7 @@ def long_description():
 
 setup(
     name = 'wq.io',
-    version = '0.2.0',
+    version = '0.3.0',
     author='S. Andrew Sheppard',
     author_email='andrew@wq.io',
     url='http://wq.io/wq.io',
@@ -29,6 +29,9 @@ setup(
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
+        'Programming Language :: Python :: 2.7',
         'Topic :: Software Development :: Libraries :: Application Frameworks',
+        'Topic :: Text Processing :: Markup :: XML',
+        'Topic :: Scientific/Engineering :: GIS',
     ]
 )
