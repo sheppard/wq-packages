@@ -34,7 +34,7 @@ package_data['wq'].append('app/util/r.js')
 
 setup(
     name = 'wq.app',
-    version = '0.4.1',
+    version = '0.4.2',
     author='S. Andrew Sheppard',
     author_email='andrew@wq.io',
     url='http://wq.io/wq.app',
@@ -52,7 +52,10 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Programming Language :: JavaScript',
+        'Programming Language :: Python :: 2.7',
         'Topic :: Software Development :: Libraries :: Application Frameworks',
-        'Topic :: Text Processing :: Markup :: HTML'
+        'Topic :: Text Processing :: Markup :: HTML',
+        'Topic :: Scientific/Engineering :: GIS',
+        'Topic :: Software Development :: Pre-processors',
     ]
 )
