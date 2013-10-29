@@ -15,7 +15,7 @@ def long_description():
 
 setup(
     name = 'wq.db',
-    version = '0.3.0',
+    version = '0.3.1',
     author='S. Andrew Sheppard',
     author_email='andrew@wq.io',
     url='http://wq.io/wq.db',
@@ -37,8 +37,10 @@ setup(
         'Environment :: Web Environment',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
-        'Programming Language :: Python',
+        'Programming Language :: Python :: 2.7',
         'Topic :: Software Development :: Libraries :: Application Frameworks',
-        'Topic :: Text Processing :: Markup :: HTML'
+        'Topic :: Text Processing :: Markup :: HTML',
+        'Topic :: Scientific/Engineering :: GIS',
+        'Topic :: Database :: Database Engines/Servers',
     ],
 )
