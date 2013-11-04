@@ -26,7 +26,7 @@ setup(
     long_description=long_description(),
     install_requires=['httplib2','lxml','xlrd'],
     classifiers = [
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
         'Programming Language :: Python :: 2.7',

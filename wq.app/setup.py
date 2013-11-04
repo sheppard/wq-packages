@@ -56,6 +56,7 @@ setup(
         'Topic :: Software Development :: Libraries :: Application Frameworks',
         'Topic :: Text Processing :: Markup :: HTML',
         'Topic :: Scientific/Engineering :: GIS',
+        'Topic :: Software Development :: Build Tools',
         'Topic :: Software Development :: Pre-processors',
     ]
 )
