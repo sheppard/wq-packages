@@ -1,9 +1,0 @@
-[submodule "wq.io/wq/io"]
-	path = wq.io/wq/io
-	url = git@github.com:wq/wq.io.git
-[submodule "wq.db/wq/db"]
-	path = wq.db/wq/db
-	url = git@github.com:wq/wq.db.git
-[submodule "wq.app/wq/app"]
-	path = wq.app/wq/app
-	url = git@github.com:wq/wq.app.git
